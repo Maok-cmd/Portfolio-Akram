@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Akram Bellahreche | Portfolio Ingénieur Électronique Industrielle & Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="tech-text">M.Akram</span><span class="dot">.</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#accueil" class="active">Accueil</a></li>
+                    <li><a href="#a-propos">À Propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#experiences">Expériences</a></li>
+                    <li><a href="#education">Formation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="subtitle">Ingénierie & Code</span>
+                <h1>Mohamed Akram <br><span class="highlight">Bellahreche</span></h1>
+                <h3 class="dynamic-title">Étudiant en Génie Électronique Industrielle à l'USTHB</h3>
+                <p class="hero-description">
+                    Passionné par l'interfaçage entre le monde physique et le numérique. Je programme des microcontrôleurs, je conçois des systèmes embarqués et je développe des applications web modernes pour piloter le tout.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Discutons d'un projet</a>
+                    <a href="#experiences" class="btn btn-secondary">Voir mes projets</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="tech-circle">
+                    <i class="fas fa-microchip tech-icon icon-1"></i>
+                    <i class="fas fa-code tech-icon icon-2"></i>
+                    <i class="fas fa-network-wired tech-icon icon-3"></i>
+                    <i class="fas fa-cogs tech-icon icon-4"></i>
+                    <div class="inner-profile">
+                        <span class="initials">AB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#a-propos"><i class="fas fa-chevron-down animate-bounce"></i></a>
+        </div>
+    </section>
+
+    <!-- À Propos Section -->
+    <section id="a-propos" class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>À Propos de <span class="highlight">Moi</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Créer des ponts entre le Hardware et le Web</h3>
+                    <p>
+                        Actuellement en cursus d'ingénieur d'État à l'USTHB, j'aime comprendre comment les choses fonctionnent, du composant électronique soudé sur un PCB jusqu'à l'interface utilisateur qui s'affiche sur un écran.
+                    </p>
+                    <p>
+                        Cette double compétence en <strong>Électronique Industrielle</strong> et en <strong>Développement Web Front-End</strong> me permet d'aborder les projets de bout en bout : de la conception d'une architecture matérielle (Bus CAN, Arduino/ESP32) à l'écriture de l'application logicielle qui permet de la contrôler de manière intuitive.
+                    </p>
+                    <p>
+                        Curieux et axé sur la pratique, j'aime également transmettre ce que j'apprends. J'ai partagé cette dynamique sur le terrain en animant des ateliers d'initiation à la robotique et à l'électronique pour un jeune public.
+                    </p>
+                    <div class="personal-info">
+                        <div class="info-item"><strong>Localisation :</strong> Alger, Algérie</div>
+                        <div class="info-item"><strong>Disponibilité :</strong> Stages & Projets</div>
+                        <div class="info-item"><strong>Profil :</strong> Terrain, curieux & à l'écoute</div>
+                        <div class="info-item"><strong>Centres d'intérêt :</strong> Sport, mécanique, tech</div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="stat-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Parcours Ingénieur</h4>
+                        <p>USTHB (2022 - 2027)</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Double Profil</h4>
+                        <p>Électronique & Web App</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h4>Pédagogie</h4>
+                        <p>Ancien Formateur en Robotique</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="competences" class="skills-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mes <span class="highlight">Compétences</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-container">
+                <!-- Bloc 1: Hardware & Embarqué -->
+                <div class="skills-category">
+                    <h3><i class="fas fa-microchip"></i> Systèmes Embarqués & Électronique</h3>
+                    <div class="tech-tags-container">
+                        <span class="tech-tag-item">Arduino IDE & MicroPython</span>
+                        <span class="tech-tag-item">Conception & Simulation (Proteus)</span>
+                        <span class="tech-tag-item">Protocoles (Bus CAN, OBD-II)</span>
+                        <span class="tech-tag-item">Traitement de signal (MATLAB)</span>
+                        <span class="tech-tag-item">Électronique de puissance & Régulation</span>
+                    </div>
+                </div>
+
+                <!-- Bloc 2: Web & Software -->
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Développement Web & UI</h3>
+                    <div class="tech-tags-container">
+                        <span class="tech-tag-item">HTML5 / CSS3 / Responsive Design</span>
+                        <span class="tech-tag-item">JavaScript (ES6+)</span>
+                        <span class="tech-tag-item">React JS</span>
+                        <span class="tech-tag-item">Interfaces Python (Qt Designer)</span>
+                        <span class="tech-tag-item">Environnements Windows & Linux</span>
+                    </div>
+                </div>
+
+                <!-- Bloc 3: Soft Skills & Langues -->
+                <div class="skills-category full-width">
+                    <h3><i class="fas fa-user-check"></i> Profil & Langues</h3>
+                    <div class="soft-skills-grid">
+                        <div class="tag-item"><i class="fas fa-check-circle"></i> Résolution de pannes technique</div>
+                        <div class="tag-item"><i class="fas fa-check-circle"></i> Pédagogie active & Vulgarisation</div>
+                        <div class="tag-item"><i class="fas fa-check-circle"></i> Travail en équipe (Projets d'ingénierie)</div>
+                        <div class="tag-item lang-tag"><i class="fas fa-globe"></i> Français (Courant)</div>
+                        <div class="tag-item lang-tag"><i class="fas fa-globe"></i> Anglais (Technique & Fluide)</div>
+                        <div class="tag-item lang-tag"><i class="fas fa-globe"></i> Arabe (Maternelle)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expériences Section -->
+    <section id="experiences" class="experience-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mon <span class="highlight">Parcours</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="timeline">
+                <!-- Expérience 1: NAFTAL -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Fév 2026 - Mars 2026</span>
+                        <h4>Stagiaire en Génie Électronique</h4>
+                        <span class="company">NAFTAL (Département Technique)</span>
+                        <p>Stage de terrain axé sur l'analyse, l'observation et la compréhension des architectures d'automatisation et des systèmes de contrôle industriel sur site.</p>
+                    </div>
+                </div>
+
+                <!-- Expérience 2: Projet USTHB -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Nov 2025 - Déc 2025</span>
+                        <h4>Développeur Systèmes Embarqués (Projet Académique)</h4>
+                        <span class="company">USTHB | Bab Ezzouar</span>
+                        <ul>
+                            <li>Conception complète et modélisation d'un automatisme de rideau motorisé.</li>
+                            <li>Développement d'une interface utilisateur dédiée sous Qt Designer avec script Python.</li>
+                            <li>Gestion matérielle et interfaçage logiciel pour le pilotage précis des servo-moteurs.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Expérience 3: École Descartes -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Juin 2025 - Juil 2025</span>
+                        <h4>Formateur en Initiation à l'Électronique</h4>
+                        <span class="company">École Privée Descartes | Kouba</span>
+                        <p>Vulgarisation de concepts physiques et électroniques pour un jeune public (-14 ans). Encadrement d'ateliers de montage pratiques basés sur une approche ludique et active.</p>
+                    </div>
+                </div>
+
+                <!-- Expérience 4: CDTA -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Fév 2025 - Mars 2025</span>
+                        <h4>Stagiaire en Systèmes Embarqués</h4>
+                        <span class="company">CDTA (Centre de Développement des Technologies Avancées)</span>
+                        <ul>
+                            <li>Simulation matérielle et logicielle d'un réseau de communication Bus CAN.</li>
+                            <li>Déploiement d'une communication structurée maître/esclave entre cartes Arduino et ESP32.</li>
+                            <li>Émulation de requêtes de diagnostic via le protocole automobile OBD-II.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Expérience 5: Robokids -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Périodes estivales</span>
+                        <h4>Enseignant en Robotique</h4>
+                        <span class="company">Robokids Academy</span>
+                        <p>Introduction aux bases de la logique algorithmique et manipulation guidée de la plateforme Arduino Uno (capteurs, actionneurs) pour enfants de 6 à 14 ans.</p>
+                    </div>
+                </div>
+
+                <!-- Expérience 6: Jobs d'été -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Juin 2024 - Août 2024</span>
+                        <h4>Employé Polyvalent & Vendeur (Job d'été)</h4>
+                        <span class="company">Centre Commercial Bab Ezzouar / Supérette Souf / Hammoud</span>
+                        <p>Gestion opérationnelle de flux de clients importants, tenue rigoureuse de caisse et animation commerciale terrain pour la marque Hammoud.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-title">
+                <h2><span class="highlight">Formation</span> & Diplômes</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <span class="edu-date">2022 - 2027</span>
+                    <h3>Ingéniorat en Génie Électronique Industrielle</h3>
+                    <p class="edu-school">USTHB - Université des Sciences et de la Technologie Houari Boumediene</p>
+                    <p>Cursus d'ingénieur d'État complet. Domaines phares : automatique, électronique de puissance, informatique industrielle, mécatronique et régulation de processus.</p>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-certificate"></i></div>
+                    <span class="edu-date">Formation Certifiante</span>
+                    <h3>Attestation de Développeur Web Front-End</h3>
+                    <p class="edu-school">Union Éducation</p>
+                    <p>Spécialisation intensive dans l'intégration d'interfaces web responsives et dynamiques en manipulant HTML5, CSS3, JavaScript moderne (ES6) et le framework React.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Me <span class="highlight">Contacter</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Discutons de vos projets !</h3>
+                    <p>Je suis actuellement à l'écoute d'opportunités technologiques, de collaborations, de stages ou de défis techniques stimulants.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h5>Téléphone</h5>
+                                <p>(+213) 07 79 23 78 31</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <p>akrambellahreche6@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>Adresse</h5>
+                                <p>Gue de Constantine / Bab Ezzouar, Alger, Algérie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="portfolio-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Votre Nom complet" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Votre Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Sujet" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Votre Message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Envoyer le Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Mohamed Akram Bellahreche. Tous droits réservés.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
